@@ -44,7 +44,7 @@ func About() templ.Component {
 				}()
 			}
 			ctx = templ.InitializeContext(ctx)
-			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<style>\n         .centered {\n                display: flex;\n                justify-content: center;  /* Centers horizontally */\n                align-items: center;      /* Centers vertically */\n                height: 100vh;            /* Full viewport height */\n                text-align: center;       /* Centers text */\n            }\n        </style> <div class=\"centered\">")
+			templ_7745c5c3_Err = templruntime.WriteString(templ_7745c5c3_Buffer, 1, "<style>\n         .centered {\n                display: flex;\n                justify-content: center;  /* Centers horizontally */\n                align-items: center;      /* Centers vertically */\n                height: 100vh;            /* Full viewport height */\n                text-align: center;       /* Centers text */\n                flex-direction:column;\n            }\n        </style> <div class=\"centered\">")
 			if templ_7745c5c3_Err != nil {
 				return templ_7745c5c3_Err
 			}

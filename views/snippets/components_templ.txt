@@ -1,7 +1,0 @@
-<h1 class=\"
-\">
-</h1>
-<button class=\"
-\" onClick=\"
-\">
-</button>
