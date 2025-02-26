@@ -5,12 +5,11 @@ This is my choice for building webapps. The stack:
 
 Go: For the backend
 A: Apline.js : For adding interactivity client side
-T: Templ :  Templ used for server-side templates combining GO and HTMX/HTML
+T: Templ,Tailwind :  Templ used for server-side templates combining GO and HTMX/HTML, tailwind for them styles
 
 ## Features:
 
-- Reusable Components: This framework comes with its own component library built from scratch. ( Work In Progress )
+- Reusable Components: This framework comes with its own component library built on top of tailwind. ( Work In Progress )
 - Minimalistic: No unnecessary bloat.
 - Dynamic with HTMX: HTMX brings interactivity and modern UI experiences without requiring a complex frontend framework.
 - Easy Templating: The Templ engine allows for easy and powerful server-side rendering with Go, seamlessly integrating into your backend logic.
-

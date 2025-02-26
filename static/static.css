@@ -1,48 +1,8 @@
+@import "tailwindcss";
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-}
-
-:root {
-    --font-family: 'Roboto', sans-serif;  /* Default font family */
-    --font-size-base: 16px;  /* Base font size */
-    --font-size-sm: 14px;  /* Small font size */
-    --font-size-lg: 18px;  /* Large font size */
-    --font-size-xl: 24px;  /* Extra large font size */
-    --font-weight-normal: 400;  /* Normal weight */
-    --font-weight-bold: 700;  /* Bold weight */
-    --line-height: 1.5;  /* Line height for readability */
-}
-
-:root {
-  /* Colors */
-    --color-text: #f1e4e4;
-    --color-background: #ffffff;
-    --color-primary: #d4adaa;
-    --color-secondary: #c6e1fb;
-    --color-accent: #4db5ff;
-    
-    /* Additional Colors */
-    --color-muted: #a3a3a3; /* Dimmed text */
-    --color-border: #444444; /* Border color */
-    --color-danger: #ff4d4d; /* Error/danger color */
-    --color-success: #4caf50; /* Success color */
-    --color-warning: #ffcc00; /* Warning color */
-    
-    /* Button Styling */
-    --button-radius: 0.375rem;
-    --button-padding: 0.5rem 1rem;
-    --button-transition: background-color 0.2s, color 0.2s;
-    
-    /* Shadows */
-    --shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    --shadow-lg: 0px 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-html {
-    background-color: var(--color-background)
 }
 
 button:hover {
