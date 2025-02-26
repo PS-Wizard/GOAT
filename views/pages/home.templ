@@ -1,0 +1,22 @@
+package pages
+
+import "github.com/PS-Wizard/GOAT/views/snippets"
+import "github.com/PS-Wizard/GOAT/views/styles"
+
+templ Home() {
+	@snippets.Base("Home Page") {
+		<style>
+         .centered {
+                display: flex;
+                justify-content: center;  /* Centers horizontally */
+                align-items: center;      /* Centers vertically */
+                height: 100vh;            /* Full viewport height */
+                text-align: center;       /* Centers text */
+            }
+        </style>
+		<div class="centered">
+			@snippets.Text("Home Page", s.TextHighlight(), s.TextExtraLarge())
+			<a href="/about" >@snippets.Button("Goto About", templ.ComponentScript{}, s.ButtonPrimary()) </a>
+		</div>
+	}
+}

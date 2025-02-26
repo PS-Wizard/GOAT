@@ -1,0 +1,56 @@
+package s
+
+css BaseButton() {
+	padding: 0.5rem 1rem;
+	margin: 0.5rem 1rem;
+	border-radius: 0.375rem;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	border: none;
+	transition: background-color 0.2s, color 0.2s;
+	color: #000;
+}
+
+css ButtonPrimary() {
+	background-color: var(--color-primary);
+	color: black;
+}
+
+css ButtonSecondary() {
+	background-color: var(--color-secondary);
+	color: black;
+}
+
+css ButtonOutline() {
+	background-color: transparent;
+	border: 2px solid var(--color-primary);
+	color: var(--color-primary);
+}
+
+css ButtonGhost() {
+	background-color: transparent;
+	color: var(--color-primary);
+}
+
+css ButtonDanger() {
+	background-color: var(--color-danger);
+	color: black;
+}
+
+css ButtonDisabled() {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+css ButtonLarge() {
+	padding: 0.75rem 1.5rem;
+	font-size: var(--font-size-lg);
+}
+
+css ButtonExtraLarge() {
+	padding: 1rem 2rem;
+	font-size: var(--font-size-xl);
+}

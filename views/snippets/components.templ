@@ -1,0 +1,23 @@
+package snippets
+
+import "github.com/PS-Wizard/GOAT/views/styles"
+
+templ Text(text string, opts ...templ.CSSClass) {
+	{{
+	styles := templ.CSSClasses{}
+	for _, v := range opts {
+		styles = append(styles, v)
+	}
+	}}
+	<h1 class={ s.BaseText(),opts }>{ text }</h1>
+}
+
+templ Button(text string, onClick templ.ComponentScript, opts ...templ.CSSClass) {
+	{{
+	styles := templ.CSSClasses{}
+	for _, v := range opts {
+		styles = append(styles, v)
+	}
+	}}
+	<button class={ s.BaseButton(),opts } onClick={ onClick }>{ text }</button>
+}

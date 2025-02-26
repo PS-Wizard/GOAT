@@ -1,0 +1,3 @@
+<style>\n         .centered {\n                display: flex;\n                justify-content: center;  /* Centers horizontally */\n                align-items: center;      /* Centers vertically */\n                height: 100vh;            /* Full viewport height */\n                text-align: center;       /* Centers text */\n            }\n        </style> <div class=\"centered\">
+<a href=\"/home\">
+</a></div>
